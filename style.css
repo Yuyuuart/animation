@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.div1{
+    
+}
+
+#icon11 {
+    animation-name: FlashingIcon;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes FlashingIcon {
+    0% {opacity: 0;}
+    50% {opacity: 100;}
+    100% {opacity: 0;}
+}
